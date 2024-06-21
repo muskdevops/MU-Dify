@@ -205,7 +205,7 @@ services:
     #   - redis
     volumes:
       # Mount the storage directory to the container, for storing user files.
-      - ./volumes/app/storage:/app/api/storage
+      - volumes/app/storage:/app/api/storage
     # uncomment to expose dify-api port to host
     # ports:
     #   - "5001:5001"
